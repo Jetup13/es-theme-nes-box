@@ -28,6 +28,7 @@ version         1.9
         <include name="red" displayName="${red}">./red.xml</include>
         <include name="blue" displayName="${blue}">./blue.xml</include>
 		<include name="green" displayName="${green}">./green.xml</include>
+		<include name="purple" displayName="${purple}">./purple.xml</include>
     </subset>
 	
 	<subset name="Font Size" displayName="${fontsizeSubsetname}">
