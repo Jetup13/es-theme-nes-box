@@ -1,0 +1,53 @@
+<!--
+theme name:     NES BOX Theme
+creator:		Travis Wilson (Super Retropie and Retro Gaming)
+facebook:		www.facebook.com/groups/superretropie
+twitter:		www.twitter.com/superretropie
+email:			superretropieretrogaming@gmail.com
+version         1.9
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+   
+   	<variables>
+		<mainColor>6A0572</mainColor>
+	</variables>
+   
+   <feature supported="carousel">
+   <view name="system">
+      <image name="background" extra="true">            
+         <path>./_inc/images/purple/background.png</path>
+      </image>  
+      <image name="background_bottom" extra="true">               
+         <path>./_inc/images/purple/background_bottom.png</path>
+      </image>                               
+    </view>
+    </feature>
+   
+    <view name="basic">
+      <image name="background" extra="true">       
+         <path>./_inc/images/purple/background_basic.png</path>        
+      </image>                
+    </view> 
+    
+    <view name="detailed,video">
+      <image name="background" extra="true">       
+         <path>./_inc/images/purple/background_video.png</path>        
+      </image>                
+    </view> 
+	
+	<view name="menu">
+	<menuText name="menutext, menutitle">
+         <separatorColor>${mainColor}</separatorColor>
+	</menuText>
+	</view>
+	
+	<view name="basic,detailed,video">
+      <textlist name="gamelist">      
+         <selectedColor>${mainColor}</selectedColor>                         
+      </textlist>
+   </view> 
+  
+</theme>
